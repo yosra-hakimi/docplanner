@@ -1,0 +1,402 @@
+body{
+ font-family: sans-serif;
+ margin:0;
+
+}
+
+
+
+header{
+/* border:1px solid;*/
+  height:70px;
+  width:100%;
+ padding-top:20px;
+
+
+}
+
+
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+    margin-bottom: 0px;
+    margin-left:10%;
+/*  border:3px solid green;*/
+  
+}
+header a:link {
+    color: #ababab;
+}
+
+/* visited link */
+header a:visited {
+    color: #ababab;
+}
+
+/* mouse over link */
+header a:hover {
+    color: #00b39b;
+}
+.about-us:link{
+    color: #00b39b;
+}
+
+header a{
+  text-decoration:none; 
+ 
+     font-size: 15px;
+     
+ 
+}
+
+ul {
+  display:flex;
+  width:35%;
+/* border:1px solid;*/
+margin-left:60%; 
+margin-top: -45px;
+list-style-type: none;
+  
+}
+
+li{
+	margin:10px;
+}
+
+.section1{
+/*border:1px solid;*/
+display:flex;
+ height:380px;
+  width:100%;
+ flex-direction:column;
+
+  
+}
+
+.lead__logo{ 
+/*   border:1px solid; */
+  width:40px;
+  align-self:center;
+}
+.section1 h1{
+  font-size: 2.125rem;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    color: #00b39b;
+}
+.titre1{
+/*   border:1px solid; */
+  align-self:center;
+}
+.div-paragraph{
+/*   border:1px solid; */
+  display:flex ; 
+ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+ color: #747474;
+  display:flex;
+  align-self:center;
+  
+}
+.paragraph1{
+/*   border:1px solid; */
+  width:50%;
+  padding:10px;
+  margin-top:13px;
+  margin-bottom:13px;
+  line-height: 1.75;
+    font-weight: 400;
+  
+}
+.paragraph2{
+   margin-top:13px;
+/*   border:1px solid; */
+  width:50%;
+  padding:10px;
+  margin-bottom:13px;
+  line-height: 1.75;
+  font-weight: 400;
+  
+}
+
+.section2{
+/*  border:1px solid;*/
+  display:flex;
+justify-content:center;
+
+
+}
+
+.part1-section2{
+	
+
+/*	border:2px solid green;*/
+background:#00ccb1;
+padding:0px 40px 0px 30px;
+width:30%;
+height:30%;
+border-radius:10px;
+margin-right: 20px;
+}
+.part2-section2{
+
+  /*border:2px solid blue;*/
+background:#3d83df;
+padding:0px 40px 0px 30px;
+width:30%;
+height:30%;
+border-radius:10px;
+}
+.img-part2{
+	margin-left:40%;
+}
+
+ .section2 h5 {
+  color: hsla(0,0%,100%,.7);
+} 
+
+.section2 h1{
+	color:#ffffff;
+    font-size: 1.625em;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+  
+}
+.select-img{
+	/*border:1px solid;*/
+	display:flex;
+}
+.service-card-image{
+	width:440px;
+	height:250px;
+}
+.service-card-select{
+	width:160px;
+	height:40px;
+	/*padding-left:18;
+	padding-right:42;*/
+	border-radius:4px;
+
+}
+.section3{
+	display:flex;
+/*	border:1px solid;*/
+	margin:0px;
+	display: flex;
+    justify-content: center;
+    margin-left: 190px;
+    margin-top:40px;
+    margin-bottom:40px;
+  }
+
+
+
+.section3 p{
+	/*border:1px solid;*/
+	color: #00b39b;
+	margin:0px;
+	 font-size: 1.625em;
+	 width:300px;
+	 font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.section3 svg{
+	/*border:3px solid;*/
+	color:#c4c4c4;
+	padding: 0 15px;
+    fill:#ababab;
+     width:114px;
+	height:25px;
+	/*margin-top: 50px;*/
+
+
+}
+
+.section3 ul{
+	margin:0px;
+	/*border:1px solid green ;*/
+	display:flex;
+	flex-wrap: wrap;
+	width:80%;
+	height: 
+}
+
+
+.section4{
+background-color:#d8f6f6;
+display:flex;
+padding-left:140px;
+height:580px;
+
+}
+.section4 h1{
+	margin-top:32px;
+
+	font-size: 2.125rem;
+    color: #00b39b;
+    font-weight: 300;
+
+}
+.section4 p{
+	max-width: 415px;
+    
+    font-weight: 400;
+    line-height: 1.7142857143;
+    margin: 1.6em 0;
+    color: #747474;
+    font-size: .8125em;
+}
+
+.part1-section4 {
+	padding:15px;
+	margin:32px;
+	 
+}
+.part2-section4{
+	
+	  text-align: center;
+	    background:#ffffff;
+	    width:176px;
+	    height:220px;
+	    padding:15px;
+	    margin-top: 40px;
+        margin-bottom: 15px;
+}
+
+.part3-section4{
+
+	  text-align: center;
+	    background:#ffffff;
+	    width:176px;
+	    height:220px;
+	    padding:15px;
+	    margin: 15px;
+}
+
+
+.part4-section4{
+	  text-align: center;
+	    background:#ffffff;
+	    width:176px;
+	    height:220px;
+	    padding:15px;
+}
+
+.part5-section4{
+	  text-align: center;
+	  background:#ffffff;
+	  width:176px;
+	  height:220px;
+	  padding:15px;
+	  margin: 0px 15px 0px 15px;
+}
+
+.section4 h3{
+
+    color: #00b39b;
+    font-weight: 400;
+    font-size: 1.3em;
+
+   
+}
+.part24{
+/*	border:3px solid red;*/
+display:flex;
+flex-direction: column;
+}
+.part35{
+		/*border:3px solid purple;*/
+display:flex;
+flex-direction: column;
+
+}
+
+.section5 h1{
+  color: #00b39b;
+  font-weight: 300;
+    letter-spacing: .3px;
+    font-size: 2.1428571429em;
+    text-align: center;
+    
+}
+.section5 p{
+	text-align: center;
+    font-size: .875em;
+ line-height: 1.7142857143;
+	color: #747474;
+	 margin: 1.6em 0;
+}
+ 
+ .link{
+/* border:1px solid hsl(0, 0%, 97%);*/
+ 	border-radius: 6px;
+ 	display:flex;
+ 	flex-direction:column;
+ 	overflow: hidden;
+ 	margin-bottom:20px;
+ 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .link1:hover {
+    border: 1px solid hsl(0, 0%, 97%);
+}
+ .link2:hover {
+    border: 1px solid hsl(0, 0%, 97%);
+}
+ .link3:hover {
+    border: 1px solid hsl(0, 0%, 97%);
+}
+ .link4:hover {
+    border: 1px solid hsl(0, 0%, 97%);
+} 
+.link5:hover {
+    border: 1px solid hsl(0, 0%, 97%);
+}
+ .link6:hover {
+    border: 1px solid hsl(0, 0%, 97%);
+}
+.div-link{
+	display:flex;
+	justify-content:space-around;
+	padding:20px;
+
+}
+a{
+	text-decoration: none;
+}
+.section5 a span{
+/*	border:1px solid;*/
+	background: #3d83df;
+	font-size: .625rem;;
+    padding: 1em 1.5em;
+     line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+.section5-link{
+	display:flex;
+	/*border:1px solid;*/
+	width:1000px;
+	flex-wrap: wrap;
+	justify-content:space-around;
+
+}
+.section5{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+footer{
+ border-top:#eef2f2;
+ font-size: .75em;
+ color: #ababab;
+ text-align: center;
+ }
+ footer a {
+ 	color: #3d83df;
+ }
